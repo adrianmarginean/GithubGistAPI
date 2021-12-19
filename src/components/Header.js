@@ -3,8 +3,6 @@ import styled from 'styled-components';
 import logo from '../assets/logo.png';
 
 const Header = () => {
-
-
     return(
         <Container>
             <Title>
@@ -13,7 +11,6 @@ const Header = () => {
             <div>
                 <ImageContainer src={logo} alt="logo"/>
             </div>
-
         </Container>)
 };
 

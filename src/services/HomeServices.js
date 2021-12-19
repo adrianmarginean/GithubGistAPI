@@ -6,7 +6,6 @@ class HomeServices{
 
     getGists(username){
        return  axios.get(GIT_API_BASE_URL + username + '/' +  'gists');
-
     }
 
     getGist(idGist){

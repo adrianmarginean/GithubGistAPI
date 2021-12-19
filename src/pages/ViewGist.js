@@ -35,8 +35,6 @@ export  default class ViewGist extends Component{
 
 
     render() {
-
-
         return (
             <Container className="container">
                 <Box>

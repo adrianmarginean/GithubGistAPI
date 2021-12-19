@@ -4,9 +4,7 @@ import styled from 'styled-components';
 class Footer extends Component {
     constructor(props) {
         super(props)
-
         this.state = {
-
         }
     }
 

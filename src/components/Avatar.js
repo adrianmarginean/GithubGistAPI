@@ -1,7 +1,10 @@
-import React, { PureComponent } from 'react';
+import React, { Component } from 'react';
 import './style.css';
 
-export default class Avatar extends PureComponent {
+/*
+  This class represent the user avatar image and username
+ */
+export default class Avatar extends Component {
     render() {
         const {avatarUrl, name} = this.props;
         return [

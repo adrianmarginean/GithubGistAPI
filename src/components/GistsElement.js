@@ -3,7 +3,10 @@ import { Link } from 'react-router-dom'
 import Language from "./Language";
 import styled from "styled-components";
 
-
+/*
+   Here we have a class/component who represent
+   a gist with description, files and languages
+ */
 export default class GistsElement extends Component {
     render() {
         const {gistData} = this.props;

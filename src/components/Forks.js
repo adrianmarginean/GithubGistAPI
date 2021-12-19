@@ -1,6 +1,9 @@
 import React, { PureComponent } from 'react';
 import Avatar from './Avatar';
 
+/*
+  This component represent the fork from a gist
+ */
 export default class Forks extends PureComponent {
     render() {
         const {forks} = this.props;

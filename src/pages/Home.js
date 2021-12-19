@@ -6,8 +6,8 @@ import background from '../assets/background.jpeg'
 import HomeService from "../services/HomeServices";
 import GistsElement from "../components/GistsElement";
 
-class Home extends Component {
 
+class Home extends Component {
     constructor() {
         super();
         this.state = {
@@ -108,10 +108,6 @@ const Background = styled.div`
   width: 100vw;
   height: 100vh;
 `;
-
-
-
-
 
 const Subtitle = styled.h2`
   margin-top:10px;

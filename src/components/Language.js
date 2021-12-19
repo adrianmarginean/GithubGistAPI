@@ -2,7 +2,9 @@ import React, { PureComponent } from 'react';
 import styled from "styled-components";
 
 
-
+/*
+  This class identify the languages from files
+ */
 export default class Language extends PureComponent {
     componentWillMount() {
         const {files} = this.props;
